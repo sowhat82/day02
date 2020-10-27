@@ -39,8 +39,6 @@ app.use((req, res, next) => {
 
 
 
-
-
 // starts the server
 app.listen(PORT, () => {
     console.info(`Application started on port ${PORT} at ${new Date()}`)
